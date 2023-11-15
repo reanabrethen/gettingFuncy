@@ -15,7 +15,7 @@ You'll be working in `main.test.js`, creating the variables and functions needed
 ### Guidelines:
 
 * Please do **not** call the functions; just declare them! You can call them to check for your own testing purposes, but then either delete or comment out the line. (Because our test code runs your function and modifies the global variables, checking if the variable has been changed to the value we'd expect, if you're calling your function and changing it ALSO, the test code will change the value a second time and, when it goes to check the value, it will not be what the test code is expecting.)
-* If you are asked to define a variable in terms of another, do not recalculate the value of that variable. For example, if `x = 5`, and `y = 6`, and `z` is supposed to be the sum of `x` + `y`, do NOT set `y` to equal `11` directly. Use the `x` and `y` variables directly in that calculation instead.
+* If you are asked to define a variable in terms of another, do not recalculate the value of that variable. For example, if `x = 5`, and `y = 6`, and `z` is supposed to be the sum of `x` + `y`, do NOT set `z` to equal `11` directly. Use the `x` and `y` variables directly in that calculation instead.
 
 
 ### Tasks
@@ -27,8 +27,7 @@ Let's start by creating our variables so that we can manipulate them later on wi
 
 * Create a variable named `x` and assign to it the value `3`.
 * Create a variable named `y` and assign to it the value `10`.
-* Create a variable called `z` and assign to it the value of `4`.
-* Create a variable called  `greeting` and  assign to it the string 'hello'.
+Reana* Create a variable called  `greeting` and  assign to it the string 'hello'.
 * Create a variable called  `firstName` and assign to it the string of your name.
 * Create a variable called  `callStatus` and assign to it the string 'ringing'.
 
